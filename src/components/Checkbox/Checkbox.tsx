@@ -14,7 +14,7 @@ export const Checkbox = ({...props}: CheckboxProps) => {
 
     const [isChecked, setIsChecked] = useState(props.isInitialChecked);
 
-    function toggle(e) {
+    function toggle(e: any) {
         e.preventDefault();
         e.stopPropagation();
 
